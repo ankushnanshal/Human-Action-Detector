@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    min-height: 100vh;
+    background-image: url("resource/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: slideUp 0.8s ease-out;
+}
+
+h1 {
+    font-size: 48px;
+    color: #191818;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #514f4fe8;
+    margin-bottom: 25px;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+}
+
+.status-box {
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0d1ee1;
+}
+
+#status {
+    color: #f40f0f;
+    transition: color 0.3s ease;
+}
+
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#video {
+    display: none;
+    width: 100%;
+    max-width: 720px;
+    border-radius: 15px;
+    border: 2px solid #38bdf8;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .container {
+        padding: 25px 15px;
+    }
+
+    #video {
+        width: 100%;
+    }
+}
