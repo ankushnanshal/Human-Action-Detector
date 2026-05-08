@@ -6,6 +6,10 @@
 
 body {
     font-family: "Poppins", Arial, sans-serif;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> 8cc50a40e23d187c9bc3ae684cc5be9cbdbbbba7
     min-height: 100vh;
     background-image: url("resource/background.jpg");
     background-size: cover;
@@ -22,31 +26,53 @@ body {
     max-width: 900px;
     padding: 40px 30px;
     border-radius: 20px;
+<<<<<<< HEAD
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(12px);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
     text-align: center;
     animation: slideUp 0.8s ease-out;
+=======
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideUp 1s ease-out;
+>>>>>>> 8cc50a40e23d187c9bc3ae684cc5be9cbdbbbba7
 }
 
 h1 {
     font-size: 48px;
+<<<<<<< HEAD
     color: #191818;
+=======
+    color: #0f0e0e;
+>>>>>>> 8cc50a40e23d187c9bc3ae684cc5be9cbdbbbba7
     margin-bottom: 10px;
     font-weight: 700;
 }
 
 .subtitle {
     font-size: 18px;
+<<<<<<< HEAD
     color: #514f4fe8;
+=======
+    color: #60636a;
+>>>>>>> 8cc50a40e23d187c9bc3ae684cc5be9cbdbbbba7
     margin-bottom: 25px;
 }
 
 .button-group {
     display: flex;
     gap: 15px;
+<<<<<<< HEAD
     justify-content: center;
     margin-bottom: 20px;
+=======
+    margin-bottom: 15px;
+>>>>>>> 8cc50a40e23d187c9bc3ae684cc5be9cbdbbbba7
 }
 
 button {
@@ -56,7 +82,11 @@ button {
     border: none;
     border-radius: 8px;
     background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #000;
+>>>>>>> 8cc50a40e23d187c9bc3ae684cc5be9cbdbbbba7
     font-weight: 600;
     transition: 0.3s ease;
 }
@@ -66,6 +96,7 @@ button:hover {
     box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
 }
 
+<<<<<<< HEAD
 .status-box {
     margin: 15px 0;
     font-size: 20px;
@@ -82,12 +113,23 @@ button:hover {
     width: 100%;
     display: flex;
     justify-content: center;
+=======
+#status {
+    margin: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2af30b;
+>>>>>>> 8cc50a40e23d187c9bc3ae684cc5be9cbdbbbba7
 }
 
 #video {
     display: none;
     width: 100%;
     max-width: 720px;
+<<<<<<< HEAD
+=======
+    height: auto;
+>>>>>>> 8cc50a40e23d187c9bc3ae684cc5be9cbdbbbba7
     border-radius: 15px;
     border: 2px solid #38bdf8;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
@@ -109,11 +151,14 @@ button:hover {
     h1 {
         font-size: 32px;
     }
+<<<<<<< HEAD
 
     .container {
         padding: 25px 15px;
     }
 
+=======
+>>>>>>> 8cc50a40e23d187c9bc3ae684cc5be9cbdbbbba7
     #video {
         width: 100%;
     }
